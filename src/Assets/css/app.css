@@ -1,0 +1,5 @@
+@import 'root.css';
+
+.bg {
+    color:var(--blue-ciel);
+}
