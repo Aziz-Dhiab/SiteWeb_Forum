@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
-
+import bluelogo from '../Assets/images/logo2.png'
 import "../Assets/css/navbar.css"
-
-//import profile from "../assets/images/profile.png"
-//import profile2 from "../assets/images/profile2.png"
+import whitelogo from '../Assets/images/logo.png'
 
 export default function Navbar() {
     const [moved, setMoved] = useState(false)
@@ -30,7 +28,7 @@ export default function Navbar() {
                 <nav className="navbar" onClick={(e) => e.stopPropagation()}>
                     <div className="nav-container">
                         <NavLink exact to="/" className="nav-logo">
-                          {   /*<img   alt='logo' className="logo" />*/ }
+                            <img  src={moved ? whitelogo : bluelogo} alt='logo' className="logo" />
                         </NavLink>
                         <ul className={click ? "nav-menu active" : "nav-menu"}>
                             <li className={moved ? 'navigation-item' : 'navigation-item-moved'}>

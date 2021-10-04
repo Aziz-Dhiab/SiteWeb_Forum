@@ -127,13 +127,13 @@
 .navigation-item {
   padding: 5px 20px;
   color: var(--blue-ciel);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: lighter;
 }
 
 .navigation-item-moved {
   padding: 5px 20px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: lighter;
 }
 
@@ -146,8 +146,8 @@
 
 .logo {
   display: flex;
-  width: 150px;
-  margin-left: 20%;
+  width: 6%;
+  margin-left: 10%;
 }
 
 .btn-register {
