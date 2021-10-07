@@ -5,3 +5,15 @@
   
 }
 
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../fonts/Gilroy-Bold.woff);
+  }
+  @font-face {
+    font-family: Proxima-nova;
+    src: url(../fonts/proxima-nova-light-webfont.woff);
+  }
+  @font-face {
+    font-family: Photograph-Signature;
+    src: url(../fonts/Photograph-Signature.ttf);
+  }
