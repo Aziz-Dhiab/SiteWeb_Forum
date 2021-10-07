@@ -3,14 +3,14 @@
     height: 350px;
     width: 100%;
     display: flex;
-    background: var(--blue-ciel);
+    background: var(--blue-marine);
     padding: 80px;
     margin-top: 50px;
   
    
 }
 .footer-logo-container{
-    padding-top: 50px;
+    padding-top: 20px;
     
 }
 .footer-logo-container img{
@@ -19,6 +19,13 @@
 .footer-col{
     margin-top: 20px !important;
     margin-left:100px;
+}
+
+.footer-container h3{
+    font-size: 20px !important;
+}
+.footer-container p{
+    font-size: 15px !important;
 }
 .social-media{
     display: flex;
@@ -61,7 +68,8 @@
         justify-content: center;
         align-items: center;
         text-align: center !important;
-        background-color:  var(--blue-ciel);
+        background-color:  var(--blue-marine);
+    
         
     }
 
@@ -70,9 +78,17 @@
     .footer-logo-container{
         padding-top: 0px;
         padding-right: 0px;
+     
     }
     .footer-col{
-        margin: 0px 0px;
         text-align: center !important;
+        margin: 0px 0px;
+       
     }
+    .text-footer{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    
 }

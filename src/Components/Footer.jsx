@@ -21,21 +21,21 @@ export default function Footer() {
             </div>
             <div className="footer-col">
                 <h3>EXPLORE</h3>
-                <Link to='/' className='link'> <p>Home</p> </Link>
-                <Link to='/about' className='link'><p>About Us</p></Link>
-                <Link to='/technologies' className='link'> <p>Our Technologies</p> </Link>
-                <Link to='/register' className='link'> <p>Register</p> </Link>
+                <Link to='/' className='link'> <p>Accueil</p> </Link>
+                <Link to='/about' className='link'><p>Programme</p></Link>
+                <Link to='/technologies' className='link'> <p>Articles</p> </Link>
+                <Link to='/register' className='link'> <p>Inscription</p> </Link>
             </div>
             <div className="footer-col">
               
                 <h3>Nous contacter</h3>
                 <div className="logo-info">
                 <img src={phone} alt="phone" className="contact-logo" />
-                <p>+216 53 530 891 </p>
+                <p className="text-footer">+216 53 530 891 </p>
                 </div>
                 <div className="logo-info">
                 <img src={mail} alt="mail" className="contact-logo" />
-                <p>junior@gmail.com</p>
+                <p className="text-footer">junior@gmail.com</p>
                 </div>
                 <h3>Vistez nous</h3>
                 <div className="logo-info" >

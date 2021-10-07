@@ -132,7 +132,8 @@
   position: relative;
   z-index: 1;
 }
-.section-title h2 {
+.section-title  {
+  margin-top: -50px;
   font-weight: 500;
   color: white !important;
 }
