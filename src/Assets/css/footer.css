@@ -3,9 +3,10 @@
     height: 350px;
     width: 100%;
     display: flex;
-    background: var(--blue-marine);
+    background: var(--blue-ciel);
     padding: 80px;
     margin-top: 50px;
+    
   
    
 }
@@ -15,6 +16,7 @@
 }
 .footer-logo-container img{
     width: 270px;
+    margin-top: 50px;
 }
 .footer-col{
     margin-top: 20px !important;
@@ -34,7 +36,7 @@
 }
 .footer-col h3{
     
-    color: white;
+    color: var(--blue-marine);
     font-size: 17px;
 }
 .footer-col p{

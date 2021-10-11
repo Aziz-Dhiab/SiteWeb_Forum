@@ -50,13 +50,13 @@ export default function Navbar() {
                                     className={!moved ? 'link' : 'link-moved'}
                                     onClick={click ? handleClick : null}
                                 >
-                                    À propos
+                                    À propos 
                                 </Link>
                             </li>
                             <li className={moved ? 'navigation-item' : 'navigation-item-moved'}>
                                 <NavLink
                                     exact
-                                    to="/security"
+                                    to="/programme"
                                     activeClassName="active"
                                     className={!moved ? 'link' : 'link-moved'}
                                     onClick={click ? handleClick : null}
@@ -65,26 +65,26 @@ export default function Navbar() {
                                 </NavLink>
                             </li>
                             <li className={moved ? 'navigation-item' : 'navigation-item-moved'}>
-                                <NavLink
+                                <Link
                                     exact
-                                    to="/signup"
+                                    to="/articles"
                                     activeClassName="active"
                                     className={!moved ? 'link' : 'link-moved'}
                                     onClick={click ? handleClick : null}
-                                    className='btn btn-register btn-lg page-scroll'
                                 >
-                                    Sign Up
-                                </NavLink>
+                                    Articles
+                                </Link>
                             </li>
                             <li className={moved ? 'navigation-item' : 'navigation-item-moved'}>
-                                <NavLink
+                                <Link
                                     exact
-                                    to="/login"
+                                    to="/inscription"
                                     activeClassName="active"
+                                    className={!moved ? 'link' : 'link-moved'}
                                     onClick={click ? handleClick : null}
                                 >
-                                    {/* <img src={moved || click ? profile2 : profile} className="profileIcon" /> */}
-                                </NavLink>
+                                    Inscription
+                                </Link>
                             </li>
                         </ul>
                         <div className={click ? "nav-icon-moved" : !moved ? "nav-icon" : "nav-icon-moved"} onClick={handleClick}>
