@@ -4,7 +4,7 @@
 .navbar-container {
   height: 90px;
   width: 100vw;
-  background: var(--blue-marine); 
+  background: var(--blue-ciel); 
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -70,7 +70,7 @@
 }
 
 .link {
-  color: var(--blue-marine);
+  color: var(--beige);
   text-decoration: none;
   position: relative;
   transition: all ease-in-out 250ms;
@@ -108,7 +108,7 @@
   content: "";
   position: absolute;
   display: block;
-  height: 0.2rem;
+  height: 0.09rem;
   width: 0%;
   background: white;
   bottom: -0.75rem;

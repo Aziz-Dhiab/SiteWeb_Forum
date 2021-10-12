@@ -1,11 +1,27 @@
-import react from 'react'
+import React from 'react'
 import Navbar from '../Components/Navbar'
 import Speakers from '../Components/Speakers'
 import '../Assets/css/homepage.css'
+import PresForum from '../Components/PresForum'
+import EJEpar from '../Components/EJEpar'
+import Partenaires from '../Components/Partenaires'
+import Footer from '../Components/Footer'
+import Header from "../Components/HomeHeader"
+
 export default function Home() {
     return(
        <div className='homepage'>
-       <Speakers/>
+
+       <Header/>
+
+
+      
+
+        <EJEpar/>
+        <Partenaires />
+        <PresForum/>
+
+       <Footer />
        </div>
     )
 }
