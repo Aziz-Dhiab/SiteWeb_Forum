@@ -3,3 +3,7 @@
 .bg {
     color:var(--blue-ciel);
 }
+
+body{
+    background-color:#1f212d !important;
+}
