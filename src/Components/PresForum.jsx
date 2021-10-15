@@ -7,7 +7,7 @@ export default function PresForum(){
         <div class="presForumContainer">
            <div class="img_container">
               <img class="imggg" src={forumimg}/>
-              <div class="t_text"> LE FORUM DE L'ENSI JUNIOR ENTREPRISE </div>           
+              <div class="t_text"> LE FORUM ANNUEL DE L'ENSI</div>           
            </div>  
            <div class="event_text">
              <div class="line"></div> <br/> 

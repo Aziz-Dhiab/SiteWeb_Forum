@@ -21,7 +21,7 @@ const EJEpar = () => {
                     put in practice the theoretical training they receive at the ENSI.
                 </div>
             </div>
-            </Paper> {/*delete this commment later */}
+            </Paper> 
         </div>
     )
 }

@@ -9,12 +9,12 @@
   }
   
 .EJE_par{
-    height:100vh;
+    height:50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
- 
+    margin-top: 8%;
   
 }
 .EJE_par_title{
@@ -76,8 +76,7 @@
 @media screen and (max-width: 1000px) {
     .EJE_par{
         height:100vh;
-        display: flex;
-        flex-direction: column;
+  
         justify-content: center;
         align-items: center;
     }
@@ -110,8 +109,7 @@
 @media screen and (max-width: 760px) {
     .EJE_par{
         height:100vh;
-        display: flex;
-        flex-direction: column;
+        
         justify-content: center;
         align-items: center;
     }
@@ -162,7 +160,7 @@
     .EJE_par_description{
         font-family: proxima-nova;
         color:var(--blue-marine);
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         position:relative;
         text-align: justify;
         line-height: 1.4;
@@ -174,17 +172,19 @@
   }
   @media screen and (max-width: 450px) {
     .EJE_par{
-        height:80vh;
-        display: flex;
-        flex-direction: column;
+        height:60vh;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
+        margin-top: 8%;
+      
     }
     .EJE_par_logo{
         position:absolute;
         right: 15%;
         width: 70%;
-        opacity: 0.5;
+        opacity: 0.4;
+        margin-top: 50%;
     }
     .EJE_par_title{
         text-align: center;
@@ -196,14 +196,34 @@
     }
     .EJE_par_description{
         font-family: proxima-nova;
-        color:var(--blue-marine);
-        font-size: 0.7rem;
-        position:relative;
-        text-align: justify;
-        line-height: 1.4;
-        overflow: hidden;
-        width: 85%;
-        margin-left: 7.5%;
-        margin-bottom: 3%;
+        color:black;
+        font-size: 0.8rem;
     }
+    .EJE_par_description_left:{
+        margin-top: 3%;
+        width: 38%;
+        float: left;
+        
+    }
+    .EJE_par_description_right{
+        margin-top: 3%;
+        width: 38%;
+        float: right;
+        margin-bottom: 2%;
+       
+    }
+    .EJE_par_description_left:before
+    .EJE_par_description_right::before{
+        content: ""; 
+        width: 100vw; 
+        height: 75vh;
+       
+    }
+    .EJE_par_description_left:before{
+        float: center;
+    }
+    .EJE_par_description_right:before{
+        float: center;
+    }
+    
   }
