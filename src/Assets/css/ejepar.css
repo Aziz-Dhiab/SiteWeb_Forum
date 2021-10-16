@@ -7,14 +7,17 @@
     font-family: proxima-nova;
     src: url(../fonts/proxima-nova-light-webfont.woff);
   }
-  
+  .paper{
+      width:75%;
+      margin-top: 2%;
+  }
 .EJE_par{
-    height:100vh;
+    height:60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
- 
+    margin-top: 8%;
   
 }
 .EJE_par_title{
@@ -37,15 +40,13 @@
     width: 85%;
     margin-left: 7.5%;
     margin-bottom: 3%;
-  
+    text-shadow:black 0px 0px 1px;
 
 }
 .EJE_par_logo{
-    margin-top: 3%;
+    margin-top: 5%;
     margin-left: 2%;
     width: 20%;
-
-
 }
 .EJE_par_description_left{
     margin-top: 3%;
@@ -73,56 +74,47 @@
 .EJE_par_description_right:before{
     float: left;
 }
-@media screen and (max-width: 1000px) {
-    .EJE_par{
-        height:100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+@media screen and (max-width:1300px){
+    .paper{
+        width:85%;
     }
     .EJE_par_logo{
-        margin-top: 10%;
-        margin-left: 2%;
-        width: 20%;
+        margin-top: 8%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .paper{
+        width:90%;
+    }
+    .EJE_par{
+        height:70vh;
+    }
+    .EJE_par_logo{
+        margin-top: 7%;
     }
     .EJE_par_title{
-        text-align: center;
-        font-size: 1.5rem;
-        font-family: Gilroy;
-        color:var(--blue-ciel);
+        font-size: 2rem;
         margin-top:5%;
-        margin-bottom: 1%;
     }
     .EJE_par_description{
-        font-family: proxima-nova;
-        color:var(--blue-marine);
-        font-size: 1rem;
-        position:relative;
-        text-align: justify;
-        line-height: 1.4;
-        overflow: hidden;
-        width: 85%;
-        margin-left: 7.5%;
-        margin-bottom: 3%;
+        font-size: 1.2rem;
     }
   }
 @media screen and (max-width: 760px) {
+    .paper{
+        width:90%;
+    }
     .EJE_par{
         height:100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     .EJE_par_logo{
-        margin-top: 10%;
+        margin-top: 17%;
         margin-left: 2%;
         width: 20%;
     }
     .EJE_par_title{
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-family: Gilroy;
         color:var(--blue-ciel);
         margin-top:5%;
@@ -131,7 +123,7 @@
     .EJE_par_description{
         font-family: proxima-nova;
         color:var(--blue-marine);
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         position:relative;
         text-align: justify;
         line-height: 1.4;
@@ -141,69 +133,52 @@
         margin-bottom: 3%;
     }
   }
-  @media screen and (max-width: 530px) {
+  @media screen and (max-width: 600px) {
+      .paper{
+          width: 90%;
+          display: grid;
+          opacity: 0.8;
+          margin-top: 6%;
+      }
     .EJE_par{
-        height:100vh;
-        align-items: center;
-    }
-    .EJE_par_logo{
-        margin-top: 15%;
-        margin-left: 2%;
-        width: 20%;
-    }
-    .EJE_par_title{
-        text-align: center;
-        font-size: 1.5rem;
-        font-family: Gilroy;
-        color:var(--blue-ciel);
-        margin-top:5%;
-        margin-bottom: 1%;
-    }
-    .EJE_par_description{
-        font-family: proxima-nova;
-        color:var(--blue-marine);
-        font-size: 0.7rem;
-        position:relative;
-        text-align: justify;
-        line-height: 1.4;
-        overflow: hidden;
-        width: 85%;
-        margin-left: 7.5%;
-        margin-bottom: 3%;
-    }
-  }
-  @media screen and (max-width: 450px) {
-    .EJE_par{
-        height:80vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        height:60vh;
+        margin-top: 21%;
     }
     .EJE_par_logo{
         position:absolute;
+        filter: blur(4px);
+          -webkit-filter: blur(3px);
         right: 15%;
         width: 70%;
         opacity: 0.5;
+        margin-top: 40%;
     }
     .EJE_par_title{
-        text-align: center;
-        font-size: 1.5rem;
-        font-family: Gilroy;
-        color:var(--blue-ciel);
+        font-size: 2rem;
         margin-top:5%;
-        margin-bottom: 1%;
+        margin-bottom: 8%;
+        border-bottom: 4px solid var(--blue-ciel) ;
+        width : 78%;
+        margin-left: 9%;   
     }
     .EJE_par_description{
-        font-family: proxima-nova;
-        color:var(--blue-marine);
-        font-size: 0.7rem;
-        position:relative;
-        text-align: justify;
-        line-height: 1.4;
-        overflow: hidden;
-        width: 85%;
-        margin-left: 7.5%;
-        margin-bottom: 3%;
+        font-size: 1.2rem;
     }
+    .EJE_par_description_left{
+        width: 100%;
+    }
+    .EJE_par_description_right{
+        width: 100%;
+    }
+    
+  }
+
+  @media screen and (max-width : 400px) {
+      .paper{
+          margin-top: 10%;
+      }
+      
+.EJE_par{
+    height:90vh;
+}
   }
