@@ -24,7 +24,7 @@ export default function Footer() {
             </div>
             <div className="footer-col">
 
-                <h3>Contact Us</h3>
+                <h3>Nous contacter</h3>
                 <div className="logo-info">
                     
                     <p><i class="fas fa-phone-alt"></i> +44 113 328 1274 </p>
@@ -33,7 +33,7 @@ export default function Footer() {
                     
                     <p><i class="fas fa-envelope"></i> contact.junior.ensi@gmail.com</p>
                 </div>
-                <h3>Visit Us</h3>
+                <h3>Rendez nous visite</h3>
                 <div className="logo-info" >
                    
                     <p><i class="fas fa-map-marker-alt"></i> Campus Universitaire de La Manouba, Manouba 2010
@@ -41,7 +41,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-col">
-                <h3>Follow Us</h3>
+                <h3 >Suivez-nous</h3>
                 <div className="social-media">
                     <a href='https://www.instagram.com/ensijunior/' target='_blank' className='link'> <img src={Insta} alt='Instagram' className='socialmedia-logo' /> </a>
                     <a href='https://www.facebook.com/ENSI.Junior.Entreprise/' target='_blank' className='link'> <img src={Fb} alt='facebook' className='socialmedia-logo' /> </a>

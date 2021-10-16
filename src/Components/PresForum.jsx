@@ -1,5 +1,5 @@
 import '../Assets/css/PresForum.css';
-import forumimg from '../Assets/images/forumimg.jpg'
+import forumimg from '../Assets/images/forumimg2.jpg'
 
 
 export default function PresForum(){
