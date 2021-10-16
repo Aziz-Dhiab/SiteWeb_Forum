@@ -5,6 +5,8 @@ import Home from './Pages/Home'
 import Auditorium from './Components/Auditorium';
 import Navbar from './Components/Navbar';
 import { Nav } from 'react-bootstrap';
+
+import Inscription from './Pages/Inscription'
 function App() {
   return (
   <>
@@ -14,6 +16,7 @@ function App() {
         <Switch>
           <Route exact path="/"><Home/></Route>
           <Route exact path="/programme"><Auditorium/></Route>
+          <Route exact path="/inscription"><Inscription/></Route>
        
         </Switch>
       </Router> 
