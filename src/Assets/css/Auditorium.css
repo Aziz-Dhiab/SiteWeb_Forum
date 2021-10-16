@@ -45,10 +45,8 @@
   * {
     box-sizing: border-box;
   }
-  /* Fonts */
-  body {
-    font-family: Roboto;
-  }
+ 
+
   #timeline {
     padding: 100px 0;
     background: var(--blue-marine);
@@ -103,7 +101,7 @@
     margin: 10px auto 80px;
     max-width: 94%;
     z-index: 2;
-    
+    border-radius: 10px 10px  10px 10px;
     
   }
   @media (min-width: 480px) {
@@ -203,10 +201,12 @@
     border: 1px solid rgba(191, 191, 191, 0.4);
     border-top: 0;
     padding: 15px;
+    border-radius: 0px 0px  10px 10px;
   }
   @media (min-width: 1000px) {
     #timeline .demo-card .body {
       height: 315px;
+     
    }
   }
   #timeline .demo-card .body p {

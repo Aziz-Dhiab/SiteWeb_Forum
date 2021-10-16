@@ -1,6 +1,6 @@
 import react from 'react'
 import '../Assets/css/Auditorium.css' 
-import ouverture from '../Assets/images/forumimg.jpg'
+import ouverture from '../Assets/images/motouvert.jpg'
 export default function Auditorium () {
     return(
         <div className="autitoriumpage">
@@ -47,7 +47,7 @@ export default function Auditorium () {
                 </div>
             </div>
     
-            <div class="demo-card demo-card--step1">
+            <div class="demo-card demo-card--step2">
                 <div class="head">
                     <div class="number-box">
                         <span>17h</span>
@@ -60,7 +60,7 @@ export default function Auditorium () {
                 </div>
             </div>
     
-            <div class="demo-card demo-card--step1">
+            <div class="demo-card demo-card--step2">
                 <div class="head">
                     <div class="number-box">
                         <span>05</span>

@@ -7,21 +7,19 @@ import EJEpar from '../Components/EJEpar'
 import Partenaires from '../Components/Partenaires'
 import Footer from '../Components/Footer'
 import Header from "../Components/HomeHeader"
+import Funfact from "../Components/Statistique"
 
 export default function Home() {
-    return(
-       <div className='homepage'>
 
-       <Header/>
+    return (
+        <div className='homepage'>
+            <Header />
+            <EJEpar />
+            <Partenaires />
+            <PresForum />
+            <Funfact />
+            <Footer />
+        </div>
 
-
-      
-
-        <EJEpar/>
-        <Partenaires />
-        <PresForum/>
-
-       <Footer />
-       </div>
     )
 }

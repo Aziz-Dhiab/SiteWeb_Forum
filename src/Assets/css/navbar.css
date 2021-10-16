@@ -4,7 +4,7 @@
 .navbar-container {
   height: 90px;
   width: 100vw;
-  background: var(--blue-ciel); 
+  background: var(--blue-ciel);
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -12,6 +12,7 @@
   z-index: 999;
   font-size: 1.2rem;
   box-shadow: 0 -3px 8px #000000;
+ 
 }
 .navbar {
   width: 100vw;
@@ -41,6 +42,7 @@
   align-items: center;
   justify-content: space-between;
   z-index: 99;
+  background: rgb(46, 163, 221, 0.7);
  
 }
 
@@ -70,21 +72,22 @@
 }
 
 .link {
-  color: var(--beige);
+  color: white;
   text-decoration: none;
   position: relative;
   transition: all ease-in-out 250ms;
-  font-weight: 400;
   text-shadow: -1px 1px 0px rgb(0 0 0 / 30%), -2px 4px 2px rgb(0 0 0 / 10%);
+  font-family: proxima-nova;
 }
 
 .link-moved {
-  color: white !important;
+  color: var(--blue-marine) !important;
   text-decoration: none;
   position: relative;
   transition: all ease-in-out 250ms;
   font-weight: 400;
-  text-shadow: -2px 2px 0px rgb(0 0 0 / 30%), -2px 4px 2px rgb(0 0 0 / 10%);
+  font-family: proxima-nova;
+  text-shadow: -1.2px 1.2px 0px rgb(0 0 0 / 30%), -2px 4px 2px rgb(0 0 0 / 10%);
 }
 
 .link::after {
@@ -93,13 +96,14 @@
   display: block;
   height: 0.09rem;
   width: 0%;
-  background: var(--blue-marine);
+  background: white;
   bottom: -0.75rem;
   transition: all ease-in-out 250ms;
 }
 
 .link:hover::after {
   width: 100%;
+  
 }
 
 
@@ -146,33 +150,23 @@
 
 .logo {
   display: flex;
-  width: 6%;
+  width: 15%;
   margin-left: 10%;
 }
 
-.btn-register {
-  color: #fff;
-  background-image: var(--blue-marine);
-  letter-spacing: 1px;
-  margin: 0;
-  font-size: 15px;
-  font-weight: 500;
-  border-radius: 25px;
-  border: 0;
-  text-decoration: none;
-  transition: none;
-}
+
 
 .profileIcon{
   width: 40px;
 }
 @media screen and (max-width: 1000px) {
   .navbar-container-transparent {
-    background: var(--beige);
+    background: var(--blue-ciel);
     box-shadow: 0 -3px 8px #000000; 
   }
   .logo{
     margin-left: calc(5% - 10px);
+
   }
   .nav-menu {
     display: flex;
@@ -187,7 +181,7 @@
   }
 
   .nav-menu.active {
-    background: var(--blue-marine);
+    background: rgb(46, 163, 221, 0.7);
     right: 0px;
     opacity: 1;
     transition: all 0.5s ease;
@@ -232,7 +226,7 @@
 
 @media screen and (max-width: 560px) {
   .nav-menu.active {
-    background: var(--blue-marine);
+    background: rgb(46, 163, 221, 0.5);
     right: 0px;
     opacity: 1;
     transition: all 0.5s ease;
@@ -252,6 +246,9 @@
   color: #fff !important;
   width: 40px !important;
   height: 40px !important;
+}
+.logo{
+  width: 15%;
 }
 .nav-icon svg {
   color: var(--blue-marine) !important;
