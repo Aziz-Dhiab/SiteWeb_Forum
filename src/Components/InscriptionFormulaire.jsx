@@ -71,7 +71,7 @@ function InscriptionFormulaire() {
         <MDBRow>
           <MDBCol md="6">
             <form onSubmit={handleSubmit}>
-              <p className="h5 text-center mb-4">Inscription</p>
+              <p className="h5 text-center mb-4" className='inscri-title'>Inscription</p>
               <div className="grey-text">
                 <MDBInput
                   required

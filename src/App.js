@@ -7,7 +7,7 @@ import Auditorium from './Components/Auditorium';
 import Articles from "./Pages/Articles"
 import Article from "./Pages/ArticlePage"
 
-import Auditorium from './Components/Auditorium'
+
 import Programmepage from './Pages/Programmepage';
 
 import Navbar from './Components/Navbar';
@@ -26,7 +26,7 @@ function App() {
         <Switch>
           <Route exact path="/"><Home/></Route>
 
-          <Route exact path="/programme"><Auditorium/></Route>
+          <Route exact path="/programme"><Programmepage/></Route>
 
           <Route exact path="/articles"><Articles/></Route>
           <Route exact path="/articles/:articleId"><Article/></Route>
