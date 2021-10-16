@@ -13,14 +13,10 @@ export default function Home() {
        <div className='homepage'>
 
        <Header/>
-
-
-      
-
         <EJEpar/>
         <Partenaires />
         <PresForum/>
-
+      <br/>
        <Footer />
        </div>
     )

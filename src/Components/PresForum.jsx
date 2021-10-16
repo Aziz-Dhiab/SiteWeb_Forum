@@ -10,8 +10,8 @@ export default function PresForum(){
               <div class="t_text"> LE FORUM ANNUEL DE L'ENSI</div>           
            </div>  
            <div class="event_text">
-             <div class="line"></div> <br/> 
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, blanditiis corrupti molestias obcaecati eius repudiandae consectetur cumque excepturi beatae assumenda voluptas laboriosam officiis aperiam eaque fuga eligendi non impedit, unde, debitis possimus ipsum placeat! Est exercitationem accusamus, doloribus voluptatem laudantium dignissimos dolorem nesciunt eligendi! Possimus facere natus aperiam, nostrum amet ad at dolorem earum id minus temporibus nisi quis nemo, fuga tempore dicta tenetur aut dolorum perferendis aspernatur, officiis animi?           </div>
+             <div class="line"></div>  
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis esse unde praesentium quos. Dicta velit, officia eum repellat ea, earum enim at, quae voluptate tempore voluptatem cumque ut pariatur magni fuga mollitia! Cum iusto, deleniti, maxime qui aut, assumenda voluptatum sequi placeat quos quis dicta recusandae similique optio atque eum. Maiores earum inventore magnam, quo, corrupti voluptatum incidunt omnis asperiores iusto facere accusamus esse quia voluptate perspiciatis harum? Minus consequuntur corrupti minima voluptatum, saepe veniam ullam ad cumque debitis natus!</div>
            <div class="edition_text"> Dans sa 16ème édition </div> 
            </div>
   

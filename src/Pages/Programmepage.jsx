@@ -6,7 +6,7 @@ export default function Programmepage() {
     return(
     <div className="programmepage">
         <Programme/>
-       
+        <Footer/>
     </div>
     )
 }
