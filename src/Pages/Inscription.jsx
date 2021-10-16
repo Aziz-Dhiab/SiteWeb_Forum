@@ -9,12 +9,6 @@ export default function Inscription() {
   return (
     <div>
     <InscriptionFormulaire/>
-    
-
-
-   
-
-
     <Footer />
     </div>
   );
