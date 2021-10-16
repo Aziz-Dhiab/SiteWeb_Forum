@@ -3,63 +3,54 @@
     height: 350px;
     width: 100%;
     display: flex;
-    background: var(--blue-ciel);
-    padding: 80px;
-    margin-top: 50px;
-    
-  
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
    
 }
 .footer-logo-container{
-    padding-top: 20px;
-    
+    padding-top: 0px;
+    margin: 0px 50px;
 }
 .footer-logo-container img{
-    width: 270px;
-    margin-top: 50px;
+    width: 250px;
 }
 .footer-col{
-    margin-top: 20px !important;
-    margin-left:100px;
-}
-
-.footer-container h3{
-    font-size: 20px !important;
-}
-.footer-container p{
-    font-size: 15px !important;
+    margin: 0px 50px;
 }
 .social-media{
+    transform: translateX(-17%);
     display: flex;
     flex-direction: row;
-
 }
 .footer-col h3{
-    
-    color: var(--blue-marine);
-    font-size: 17px;
+    color: var(--beige);
+    font-family: Gilroy;
+    text-shadow: 0px 1px 3px  black;
 }
 .footer-col p{
-    
     color: white;
-    font-size: 13px;
     padding-left:10px;
-    
+    font-family: proxima-nova;
 }
 .socialmedia-logo{
     width: 28px;
-    margin: 5px;
-
-    
+    margin: 5px 15px;
 }
 .contact-logo{
     width: 20px;
     height:20px;
 }
-.logo-info{
-    display: flex;
-    flex-direction: row;
-    
+@media (max-width: 1125px){
+    .footer-col{
+        margin: 0px 15px;
+    }
+    .footer-logo-container{
+        margin: 0px 15px;
+    }
 }
 @media (max-width: 900px){
     .footer-container{
@@ -69,28 +60,24 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center !important;
-        background-color:  var(--blue-marine);
+        text-align: center;
     
-        
     }
-
-
-   
     .footer-logo-container{
-        padding-top: 0px;
+        padding-top: 30px;
         padding-right: 0px;
-     
+        padding-bottom: 40px;
+        margin-right: 50px;
     }
     .footer-col{
-        text-align: center !important;
-        margin: 0px 0px;
-       
+        margin: 0px 0px; 
     }
-    .text-footer{
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-
+    .logo-info{
+        justify-content: center;
     
+    }
+    .social-media{
+        transform: translateX(0);
+        padding-bottom: 40px;
+    }
 }

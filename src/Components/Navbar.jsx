@@ -3,6 +3,7 @@ import { NavLink, Link } from 'react-router-dom'
 import bluelogo from '../Assets/images/logo2.png'
 import "../Assets/css/navbar.css"
 import whitelogo from '../Assets/images/logo.png'
+import logoforum from '../Assets/images/16forum_blanc.png'
 
 export default function Navbar() {
     const [moved, setMoved] = useState(false)
@@ -23,64 +24,54 @@ export default function Navbar() {
     })
     return (
         <>
-            <div style={{marginTop:charger? '65px':''}} className={moved ? 'navbar-container' : 'navbar-container-transparent'}>
+            <div style={{marginTop:charger? '65px':''}} className={moved ? 'navbar-container' : 'navbar-container-transparent'}  >
                 <div className={!click ? '' : moved ? "main-container" : "main-container move"} onClick={() => Close()} />
                 <nav className="navbar" onClick={(e) => e.stopPropagation()}>
                     <div className="nav-container">
                         <NavLink exact to="/" className="nav-logo">
-                            <img  src={moved ? whitelogo : bluelogo} alt='logo' className="logo" />
+                            <img  src={logoforum} alt='logo' className="logo" />
                         </NavLink>
                         <ul className={click ? "nav-menu active" : "nav-menu"}>
-                            <li className={moved ? 'navigation-item' : 'navigation-item-moved'}>
+                            <li className='navigation-item'>
                                 <Link
                                     exact
                                     to="/"
                                     activeClassName="active"
-                                    className={!moved ? 'link' : 'link-moved'}
+                                    className='link'
                                     onClick={click ? handleClick : null}
                                 >
                                     Accueil
                                 </Link>
                             </li>
-                            <li className={moved ? 'navigation-item' : 'navigation-item-moved'}>
-                                <Link
-                                    exact
-                                    to="/about"
-                                    activeClassName="active"
-                                    className={!moved ? 'link' : 'link-moved'}
-                                    onClick={click ? handleClick : null}
-                                >
-                                    À propos 
-                                </Link>
-                            </li>
-                            <li className={moved ? 'navigation-item' : 'navigation-item-moved'}>
+                    
+                            <li className='navigation-item'>
                                 <NavLink
                                     exact
                                     to="/programme"
                                     activeClassName="active"
-                                    className={!moved ? 'link' : 'link-moved'}
+                                    className= 'link'
                                     onClick={click ? handleClick : null}
                                 >
                                    Programme
                                 </NavLink>
                             </li>
-                            <li className={moved ? 'navigation-item' : 'navigation-item-moved'}>
+                            <li className='navigation-item'>
                                 <Link
                                     exact
                                     to="/articles"
                                     activeClassName="active"
-                                    className={!moved ? 'link' : 'link-moved'}
+                                    className='link' 
                                     onClick={click ? handleClick : null}
                                 >
                                     Articles
                                 </Link>
                             </li>
-                            <li className={moved ? 'navigation-item' : 'navigation-item-moved'}>
+                            <li className='navigation-item'>
                                 <Link
                                     exact
                                     to="/inscription"
                                     activeClassName="active"
-                                    className={!moved ? 'link' : 'link-moved'}
+                                    className='link'
                                     onClick={click ? handleClick : null}
                                 >
                                     Inscription

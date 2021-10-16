@@ -5,7 +5,7 @@ import Paper from '@material-ui/core/Paper';
 const EJEpar = () => {
     return (
         <div className="EJE_par" >
-            <Paper elevation={3} style={{width:'75%'}}>
+            <Paper  className="paper" elevation={3}>
             <div className="EJE_par_title">
                 C'est quoi l'EJE ?
             </div>
@@ -21,7 +21,7 @@ const EJEpar = () => {
                     put in practice the theoretical training they receive at the ENSI.
                 </div>
             </div>
-            </Paper> {/*delete this commment later */}
+            </Paper> 
         </div>
     )
 }

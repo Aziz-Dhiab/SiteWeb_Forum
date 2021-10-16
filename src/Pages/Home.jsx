@@ -10,6 +10,7 @@ import Header from "../Components/HomeHeader"
 import Funfact from "../Components/Statistique"
 
 export default function Home() {
+
     return (
         <div className='homepage'>
             <Header />
@@ -19,5 +20,6 @@ export default function Home() {
             <Funfact />
             <Footer />
         </div>
+
     )
 }
